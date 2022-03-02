@@ -1,0 +1,128 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-image: linear-gradient(rgb(36, 36, 36), rgb(85, 85, 85));
+    background-attachment: fixed;
+}
+
+audio {
+    margin: 10px auto;
+    width: 250px;
+    height: 30px;
+}
+
+.m-2{
+    margin-top: 10px;
+}
+
+.type-of-word{
+    margin: 5px auto;
+    color: rgb(255, 255, 255);
+    font-size: 1.2em;
+    text-transform: uppercase;
+    text-decoration: underline;
+}
+
+.example{
+    margin: 5px auto;
+    color: rgb(255, 255, 255);
+    font-size: 1.1em;
+    text-transform: uppercase;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    width: 100vw;
+    height: 100vh;
+}
+
+.main {
+    display: flex;
+    flex-direction: column;
+}
+
+.main h3 {
+    color: rgb(153, 153, 153);
+    font-size: 1.5em;
+    text-align: center;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.main form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.main form input {
+    color: rgb(165, 165, 165);
+    font-size: 1.2em;
+    padding: 2px;
+    border: none;
+    background: none;
+    outline: none;
+    border-bottom: 2px solid rgb(36, 36, 36);
+    margin-bottom: 25px;
+    width: 250px;
+}
+
+::placeholder {
+    color: rgb(104, 104, 104);
+    font-size: 0.8em;
+}
+
+.main form button {
+    font-weight: bold;
+    background: none;
+    color: rgb(201, 201, 201);
+    font-size: 0.8em;
+    margin: 0 auto;
+    width: 125px;
+    border: none;
+    padding: 5px;
+    border-radius: 10px;
+    letter-spacing: 1px;
+    transition-duration: 0.4s;
+}
+
+.main form button:hover {
+    color: black;
+    background-color: rgb(140, 140, 140);
+}
+
+.informations {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.description {
+    display: flex;
+    flex-direction: column;
+}
+
+.definition {
+    color: rgb(165, 165, 165);
+    margin: 5px 0;
+    text-align: center;
+    font-size: 1.2em;
+}
+
+.word {
+    margin-bottom: 10px;
+    text-transform: uppercase;
+    font-size: 1.2em;
+    color: rgb(255, 255, 255);
+    letter-spacing: 2px;
+    text-align: center;
+    font-weight: bold;
+}
